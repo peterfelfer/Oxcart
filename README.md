@@ -15,6 +15,7 @@ Easy maintainance
 
 Known problems / limitations:
 Currently used piezo stage lacks lift force (beeing replaced currently)
+Weight distribution on optical table too uneven to use air suspension.
 Limited low temperature capability (currenlty 35K, but 20K possible with improvements)
 Only 3 pucks in load lock currenlty
 
