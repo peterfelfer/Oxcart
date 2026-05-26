@@ -1,0 +1,5 @@
+# Large CAD files (exceed GitHub's 100 MB limit)
+CAD/A-12 v125.step
+
+# macOS metadata
+.DS_Store
