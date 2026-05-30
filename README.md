@@ -4,6 +4,29 @@ Hardware and design files of the Oxcart Titanium atom probe.
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Funded by the ERC](https://img.shields.io/badge/Funded%20by-ERC%20Starting%20Grant%20805065-003399.svg)](https://cordis.europa.eu/project/id/805065)
+[![Laser upgrade funded by the DFG](https://img.shields.io/badge/Laser%20upgrade-DFG%20516600907-16469D.svg)](https://gepris.dfg.de/gepris/projekt/516600907?language=en)
+
+## Funding & acknowledgement
+
+<a href="https://cordis.europa.eu/project/id/805065">
+  <img src="LOGO-ERC_negatif.jpg" alt="European Research Council logo" align="right" width="280" />
+</a>
+
+The Oxcart atom probe was designed and built in the framework of the ERC project
+**HydMet — *Fundamentals of Hydrogen in Structural Metals at the Atomic Scale*** ([Grant Agreement No. 805065](https://cordis.europa.eu/project/id/805065)),
+funded by the European Research Council under the European Union's Horizon 2020 research and innovation programme (ERC Starting Grant, 2018–2024, host institution: Friedrich-Alexander-Universität Erlangen-Nürnberg).
+
+> This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No 805065).
+
+The **laser upgrade** — integration of an in-situ dual-side focusing laser — was funded by the **Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)** under [project number 516600907](https://gepris.dfg.de/gepris/projekt/516600907?language=en).
+
+> Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – project number 516600907.
+
+If you build on, remix, or publish work that uses this hardware, please reproduce the acknowledgements above.
+
+<br clear="right" />
+
+---
 
 The Oxcart Titanium atom probe is an open-hardware, straight-flight-path, microelectrode atom probe designed by Peter Felfer in the course of his ERC Starting Grant. You are very welcome to build your own version, remix it, or use components in your own designs. The license is GPL, so be aware that this requires you to share derivative work alike. The system is run by the [PyCCAPT](https://github.com/mehrpad/pyccapt) software package, which contains experiment and system control ([documentation](https://pyccapt.readthedocs.io/en/latest/)). Integration of Surface Concept and RoentDek detectors is implemented.
 
@@ -46,24 +69,6 @@ etc.) are **not** redistributed here. They are listed by supplier and part numbe
 A handful of big assemblies are stored as compressed (and, in two cases, split) ZIP
 archives because they exceed GitHub's 100 MB per-file limit. See
 [`docs/large-files.md`](docs/large-files.md) for how to unpack them.
-
----
-
-## Funding Acknowledgement
-
-<a href="https://cordis.europa.eu/project/id/805065">
-  <img src="LOGO-ERC_negatif.jpg" alt="European Research Council logo" align="right" width="280" />
-</a>
-
-The Oxcart atom probe was designed and built in the framework of the ERC project
-**HydMet — *Fundamentals of Hydrogen in Structural Metals at the Atomic Scale*** ([Grant Agreement No. 805065](https://cordis.europa.eu/project/id/805065)),
-funded by the European Research Council under the European Union's Horizon 2020 research and innovation programme (ERC Starting Grant, 2018–2024, host institution: Friedrich-Alexander-Universität Erlangen-Nürnberg).
-
-> This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No 805065).
-
-If you build on, remix, or publish work that uses this hardware, please reproduce the acknowledgement above.
-
-<br clear="right" />
 
 ---
 
