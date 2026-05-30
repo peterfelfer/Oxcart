@@ -11,6 +11,44 @@ Here you can find a collection of the files you need to build this atom probe.
 
 ---
 
+## Repository layout
+
+All custom-designed parts live under [`CAD/`](CAD), grouped by subsystem:
+
+| Folder | Contents |
+|---|---|
+| [`CAD/assemblies`](CAD/assemblies) | Full-instrument and major sub-assemblies (A-12, Oxcart-no-buffer, BC3, LL, MC laser/lid/NEG) |
+| [`CAD/vacuum`](CAD/vacuum) | Chambers, pumps, vacuum parts, valves & manipulation |
+| [`CAD/cryo`](CAD/cryo) | Cryo systems (MC, BC), cryo heads, cryo LL |
+| [`CAD/optics-laser`](CAD/optics-laser) | Optics and the laser-upgrade stage |
+| [`CAD/detector`](CAD/detector) | Detector flange and DLD assemblies |
+| [`CAD/sample-handling`](CAD/sample-handling) | Sample stage & pucks, load-lock/buffer-chamber parts, transfer shuttle, automation |
+| [`CAD/frame`](CAD/frame) | Instrument frame |
+| [`CAD/gas-thermal`](CAD/gas-thermal) | Gas charging devices, baking equipment, lamp holder |
+| [`CAD/electronics`](CAD/electronics) | Electrical & electronics parts |
+| [`CAD/fasteners`](CAD/fasteners) | Custom fasteners |
+| [`CAD/machining`](CAD/machining) | Manufacturing drawings (DXF/PDF) and Pocket NC CAM |
+| [`CAD/measurement`](CAD/measurement) | Measurement / gauging hardware |
+| [`CAD/3d-print`](CAD/3d-print) | 3D-printable model of the instrument |
+
+Each part is provided both as a neutral **STEP** file (opens in any CAD package) and as
+its editable **Fusion 360** source (`.f3z` / `.f3d`). Where multiple iterations existed,
+only the latest version of each part is included.
+
+### Off-the-shelf parts
+
+Commercial, off-the-shelf components (optics, vacuum hardware, motion stages, fasteners,
+etc.) are **not** redistributed here. They are listed by supplier and part number in
+[`BOM.md`](BOM.md) so you can obtain the original models from each vendor.
+
+### Large files
+
+A handful of big assemblies are stored as compressed (and, in two cases, split) ZIP
+archives because they exceed GitHub's 100 MB per-file limit. See
+[`docs/large-files.md`](docs/large-files.md) for how to unpack them.
+
+---
+
 ## Funding Acknowledgement
 
 <a href="https://cordis.europa.eu/project/id/805065">

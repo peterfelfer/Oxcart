@@ -1,0 +1,14 @@
+# Treat CAD files and archives as binary: no line-ending conversion, no textual
+# diffs/merges. (STEP/DXF are technically text but are large and machine-generated.)
+*.step  binary
+*.stp   binary
+*.f3z   binary
+*.f3d   binary
+*.dxf   binary
+*.zip   binary
+*.z01   binary
+*.z02   binary
+*.pdf   binary
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
